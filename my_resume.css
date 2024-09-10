@@ -1,0 +1,47 @@
+﻿#propic{
+    border-radius:100%; 
+    border:3px solid gold; 
+    width:125px; 
+    height:125px;
+}
+
+#left-col{
+    background-color: rgba(0, 130, 71, 0.3);
+    padding-left: 4px;
+    margin: 1px;
+}
+
+#right-col {
+    background-color: rgba(0, 121, 136, 0.3);
+    margin: 1px;
+}
+.social-logos img{
+    height:40px;
+    width:40px;
+    object-fit:contain;
+    margin-right:35px;
+}
+
+#social-contacts {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    margin-top:30px;
+    position:relative;
+    width:100%;
+}
+
+#work-ex {
+    background-color: rgba(0, 121, 136, 0.2);
+    
+}
+
+.social-logos img:hover {
+    transform: translateY(-10px);
+}
+
