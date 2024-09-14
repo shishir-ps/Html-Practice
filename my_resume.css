@@ -6,6 +6,7 @@
 }
 
 #left-col{
+    box-sizing:border-box;
     background-color: rgba(0, 130, 71, 0.3);
     padding-left: 4px;
     margin: 1px;
@@ -22,7 +23,7 @@
     margin-right:35px;
 }
 
-#social-contacts {
+#social-contacts{
     display: flex;
     justify-content:center;
     align-items: center;
@@ -36,11 +37,10 @@ footer{
     width:100%;
 }
 
-#work-ex {
+#work-ex{
     background-color: rgba(0, 121, 136, 0.2);
     
 }
 .social-logos img:hover {
-    transform: translateY(-10px); /* Moves the logo 10px upwards */
-}
+    transform: translateY(-10px);
 

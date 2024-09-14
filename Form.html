@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="./form.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>Registration Form</title>
+
+</head>
+<body>
+
+    <div class="form-box">
+
+        <form action="/" method="post">
+
+            <h2>Enter Your Details</h2>
+
+            <div class="input-box">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="name" required placeholder="Enter your full name" />
+            </div>
+            <div class="input-box">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" required placeholder="Enter your Email Address" />
+            </div>
+
+            <div class="input-box">
+                <label for="credential">Password:</label>
+                <input type="password" id="credential" name="credential" required placeholder="Enter your password" />
+            </div>
+
+            <div class="input-box">
+                <label for="re-credenial">Confirm-Password:</label>
+                <input type="password" id="re-credential" name="re-credential" required placeholder="Re-enter your password" />
+            </div>
+
+            <div class="input-box">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required placeholder="Enter your birth-date" />
+            </div>
+
+            <div class="input-box">
+                <label for="profile-pic">Profile Picture:</label>
+                <input type="file" name="profile-pic" id="profile-pic" required placeholder="" />
+            </div>
+
+            <div class="input-box">
+                <label for="feedback">Comments and Feedback</label>
+                <textarea id="feedback" name="feedback" placeholder="Share your feedback/comments here" ></textarea>
+            </div>
+
+            <div class="input-box">
+                <label for="subscription">Newsletter Subscription</label>
+                <select id="subscription" name="subscription">
+                    <option value="daily">Daily</option>
+                    <option value="weelkly">Weelkly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
+            </div>
+
+            <div class="input-box check-box">
+                I agree to the <a href="./tnc.html">Terms and condition </a>
+                <input type="checkbox" name="TnC" id="Tnc" />
+            </div>
+
+            <div class="buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+
+        </form>
+    </div>
+
+
+</body>
+</html>
