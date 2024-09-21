@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+
+    <style>
+        .container {
+            background-color: beige;
+            height: 100vh;
+            width: 90vw;
+            margin: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            gap: 10px;
+        }
+
+        .it1 {
+            background-color: green;
+            grid-row: 1/2;
+            grid-column: 1/5;
+        }
+
+        .it2 {
+            background-color: green;
+            grid-row: 2/6;
+            grid-column: 1/2;
+        }
+
+        .it3 {
+            background-color: green;
+            grid-row: 2/ 3; /* Row 1 */
+            grid-column: 2 / 3; /* Column 1 */
+        }
+
+        .it4 {
+            background-color: green;
+            grid-row: 2 / 3; /* Row 1 */
+            grid-column: 3 / 5; /* Column 2 */
+        }
+
+        .it5 {
+            background-color: green;
+            grid-row: 3 / 4; /* Row 2 */
+            grid-column: 2/ 4; /* Column 1 */
+        }
+
+        .it6 {
+            background-color: green;
+            grid-row: 3 / 4; /* Row 2 */
+            grid-column: 4 / 5; /* Column 2 */
+        }
+
+        .it7 {
+            background-color: green;
+            grid-row: 4 / 5; /* Row 3 */
+            grid-column: 2 / 3; /* Column 1 */
+        }
+
+        .it8 {
+            background-color: green;
+            grid-row: 4 / 5; /* Row 3 */
+            grid-column: 3 / 4; /* Column 2 */
+        }
+
+        .it9 {
+            background-color: green;
+            grid-row: 4 / 5; /* Row 4 */
+            grid-column: 4 / 5; /* Column 1 */
+        }
+
+        .it10 {
+            background-color: green;
+            grid-row: 5 / 6; /* Row 4 */
+            grid-column: 2 / 5; /* Column 2 */
+        }
+
+        .it1, .it2, .it4, .it10, .it5, .it6, .it7, .it8, .it9, .it3 {
+            padding: 10px;
+            font-family: "Urbanist", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="it1">1</div>
+            <div class="it2">2</div>
+            <div class="it3">3</div>
+            <div class="it4">4</div>
+            <div class="it5">5</div>
+            <div class="it6">6</div>
+            <div class="it7">7</div>
+            <div class="it8">8</div>
+            <div class="it9">9</div>
+            <div class="it10">10</div>
+
+    </main>
+</body>
+</html>
